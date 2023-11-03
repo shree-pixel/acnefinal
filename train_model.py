@@ -123,6 +123,6 @@ print(classification_report(testY.argmax(axis=1), predIdxs,
 
 # serialize the model to disk
 print("[INFO] saving mask detector model...")
-model.save("facemodel", save_format="h5")
+model.save("fm", save_format="h5")
 
 # plot the training loss and accuracy
