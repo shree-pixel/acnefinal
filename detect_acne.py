@@ -25,7 +25,7 @@ model = load_model("facemodel")
 
 # load the input image from disk, clone it, and grab the image spatial
 # dimensions
-image = cv2.imread("a.jpg")
+image = cv2.imread("b.jpg")
 orig = image.copy()
 (h, w) = image.shape[:2]
 
